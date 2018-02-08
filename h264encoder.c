@@ -32,9 +32,9 @@ void compress_begin(Encoder *en, int width, int height) {
 		return;
 	}
 	/* Create a new pic */
-	x264_picture_alloc(en->picture, X264_CSP_I422, en->param->i_width,
+	x264_picture_alloc(en->picture, X264_CSP_I420, en->param->i_width,
 			en->param->i_height);
-	en->picture->img.i_csp = X264_CSP_I422;
+	en->picture->img.i_csp = X264_CSP_I420;
 	en->picture->img.i_plane = 3;
 }
 
