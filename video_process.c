@@ -86,7 +86,7 @@ int video_process_init(void) {
 
     注意最终保存的视频文件封装格式都是avi！
     */
-    fmt = find_video_format(VIDEO_1280x720_MJPEG_TO_H264);
+    fmt = find_video_format(VIDEO_1280x720_YUYV_TO_H264);
     ERROR(NULL == fmt, err1, "Invalid video format\n");
 
     camera->device_name = "/dev/video0";
