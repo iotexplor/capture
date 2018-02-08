@@ -8,7 +8,7 @@ void capture_encode_thread(void)
 	for (;;) 
 	{
 		printf("\n\n-->this is the %dth frame\n", count);
-		if (count++ >= 1000) // 采集100帧的数据
+		if (count++ >= 100) // 采集100帧的数据
 				{
 			printf("------need to exit from thread------- \n");
 			break;
