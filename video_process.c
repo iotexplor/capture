@@ -69,9 +69,10 @@ static void close_encoder() {
     FREE(h264_buf);
 }
 
-int video_process_init(void) {
+int video_process_init(struct camera_config *config) {
+
     int ret;
-    const char *out_file = "luo.avi";
+    const char *out_file = config->file;
 
     camera = NULL;
     camera = calloc(1, sizeof(struct usb_camera));
@@ -89,7 +90,8 @@ int video_process_init(void) {
     fmt = find_video_format(VIDEO_1280x720_YUYV_TO_H264);
     ERROR(NULL == fmt, err1, "Invalid video format\n");
 
-    camera->device_name = "/dev/video0";
+
+    camera->device_name = config->device;
     camera->width = fmt->width;
     camera->height = fmt->height;
     camera->pixelformat = fmt->in_fmt;

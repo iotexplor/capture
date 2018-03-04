@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mike/Downloads/UVC_record/uvc_avilib_3
+CMAKE_SOURCE_DIR = /Volumes/share/capture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug
+CMAKE_BINARY_DIR = /Volumes/share/capture/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/uvc_avilib_3.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/uvc_avilib_3.dir/flags.make
 
 CMakeFiles/uvc_avilib_3.dir/avilib.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/avilib.c.o: ../avilib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/uvc_avilib_3.dir/avilib.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/avilib.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/avilib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/uvc_avilib_3.dir/avilib.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/avilib.c.o   -c /Volumes/share/capture/avilib.c
 
 CMakeFiles/uvc_avilib_3.dir/avilib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/avilib.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/avilib.c > CMakeFiles/uvc_avilib_3.dir/avilib.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/avilib.c > CMakeFiles/uvc_avilib_3.dir/avilib.c.i
 
 CMakeFiles/uvc_avilib_3.dir/avilib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/avilib.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/avilib.c -o CMakeFiles/uvc_avilib_3.dir/avilib.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/avilib.c -o CMakeFiles/uvc_avilib_3.dir/avilib.c.s
 
 CMakeFiles/uvc_avilib_3.dir/avilib.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/uvc_avilib_3.dir/avilib.c.o.provides.build: CMakeFiles/uvc_avilib_3.d
 
 CMakeFiles/uvc_avilib_3.dir/color.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/color.c.o: ../color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/uvc_avilib_3.dir/color.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/color.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/color.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/uvc_avilib_3.dir/color.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/color.c.o   -c /Volumes/share/capture/color.c
 
 CMakeFiles/uvc_avilib_3.dir/color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/color.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/color.c > CMakeFiles/uvc_avilib_3.dir/color.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/color.c > CMakeFiles/uvc_avilib_3.dir/color.c.i
 
 CMakeFiles/uvc_avilib_3.dir/color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/color.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/color.c -o CMakeFiles/uvc_avilib_3.dir/color.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/color.c -o CMakeFiles/uvc_avilib_3.dir/color.c.s
 
 CMakeFiles/uvc_avilib_3.dir/color.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/uvc_avilib_3.dir/color.c.o.provides.build: CMakeFiles/uvc_avilib_3.di
 
 CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o: ../h264encoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/h264encoder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o   -c /Volumes/share/capture/h264encoder.c
 
 CMakeFiles/uvc_avilib_3.dir/h264encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/h264encoder.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/h264encoder.c > CMakeFiles/uvc_avilib_3.dir/h264encoder.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/h264encoder.c > CMakeFiles/uvc_avilib_3.dir/h264encoder.c.i
 
 CMakeFiles/uvc_avilib_3.dir/h264encoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/h264encoder.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/h264encoder.c -o CMakeFiles/uvc_avilib_3.dir/h264encoder.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/h264encoder.c -o CMakeFiles/uvc_avilib_3.dir/h264encoder.c.s
 
 CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o.provides.build: CMakeFiles/uvc_avili
 
 CMakeFiles/uvc_avilib_3.dir/main.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/uvc_avilib_3.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/main.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/uvc_avilib_3.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/main.c.o   -c /Volumes/share/capture/main.c
 
 CMakeFiles/uvc_avilib_3.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/main.c > CMakeFiles/uvc_avilib_3.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/main.c > CMakeFiles/uvc_avilib_3.dir/main.c.i
 
 CMakeFiles/uvc_avilib_3.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/main.c -o CMakeFiles/uvc_avilib_3.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/main.c -o CMakeFiles/uvc_avilib_3.dir/main.c.s
 
 CMakeFiles/uvc_avilib_3.dir/main.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/uvc_avilib_3.dir/main.c.o.provides.build: CMakeFiles/uvc_avilib_3.dir
 
 CMakeFiles/uvc_avilib_3.dir/utils.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/uvc_avilib_3.dir/utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/utils.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/uvc_avilib_3.dir/utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/utils.c.o   -c /Volumes/share/capture/utils.c
 
 CMakeFiles/uvc_avilib_3.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/utils.c > CMakeFiles/uvc_avilib_3.dir/utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/utils.c > CMakeFiles/uvc_avilib_3.dir/utils.c.i
 
 CMakeFiles/uvc_avilib_3.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/utils.c -o CMakeFiles/uvc_avilib_3.dir/utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/utils.c -o CMakeFiles/uvc_avilib_3.dir/utils.c.s
 
 CMakeFiles/uvc_avilib_3.dir/utils.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/uvc_avilib_3.dir/utils.c.o.provides.build: CMakeFiles/uvc_avilib_3.di
 
 CMakeFiles/uvc_avilib_3.dir/video_capture.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/video_capture.c.o: ../video_capture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/uvc_avilib_3.dir/video_capture.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/video_capture.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_capture.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/uvc_avilib_3.dir/video_capture.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/video_capture.c.o   -c /Volumes/share/capture/video_capture.c
 
 CMakeFiles/uvc_avilib_3.dir/video_capture.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/video_capture.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_capture.c > CMakeFiles/uvc_avilib_3.dir/video_capture.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/video_capture.c > CMakeFiles/uvc_avilib_3.dir/video_capture.c.i
 
 CMakeFiles/uvc_avilib_3.dir/video_capture.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/video_capture.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_capture.c -o CMakeFiles/uvc_avilib_3.dir/video_capture.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/video_capture.c -o CMakeFiles/uvc_avilib_3.dir/video_capture.c.s
 
 CMakeFiles/uvc_avilib_3.dir/video_capture.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/uvc_avilib_3.dir/video_capture.c.o.provides.build: CMakeFiles/uvc_avi
 
 CMakeFiles/uvc_avilib_3.dir/video_process.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/video_process.c.o: ../video_process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/uvc_avilib_3.dir/video_process.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/video_process.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/uvc_avilib_3.dir/video_process.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/video_process.c.o   -c /Volumes/share/capture/video_process.c
 
 CMakeFiles/uvc_avilib_3.dir/video_process.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/video_process.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_process.c > CMakeFiles/uvc_avilib_3.dir/video_process.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/video_process.c > CMakeFiles/uvc_avilib_3.dir/video_process.c.i
 
 CMakeFiles/uvc_avilib_3.dir/video_process.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/video_process.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_process.c -o CMakeFiles/uvc_avilib_3.dir/video_process.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/video_process.c -o CMakeFiles/uvc_avilib_3.dir/video_process.c.s
 
 CMakeFiles/uvc_avilib_3.dir/video_process.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/uvc_avilib_3.dir/video_process.c.o.provides.build: CMakeFiles/uvc_avi
 
 CMakeFiles/uvc_avilib_3.dir/video_writer.c.o: CMakeFiles/uvc_avilib_3.dir/flags.make
 CMakeFiles/uvc_avilib_3.dir/video_writer.c.o: ../video_writer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/uvc_avilib_3.dir/video_writer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/video_writer.c.o   -c /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_writer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/uvc_avilib_3.dir/video_writer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uvc_avilib_3.dir/video_writer.c.o   -c /Volumes/share/capture/video_writer.c
 
 CMakeFiles/uvc_avilib_3.dir/video_writer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uvc_avilib_3.dir/video_writer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_writer.c > CMakeFiles/uvc_avilib_3.dir/video_writer.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/share/capture/video_writer.c > CMakeFiles/uvc_avilib_3.dir/video_writer.c.i
 
 CMakeFiles/uvc_avilib_3.dir/video_writer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uvc_avilib_3.dir/video_writer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mike/Downloads/UVC_record/uvc_avilib_3/video_writer.c -o CMakeFiles/uvc_avilib_3.dir/video_writer.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/share/capture/video_writer.c -o CMakeFiles/uvc_avilib_3.dir/video_writer.c.s
 
 CMakeFiles/uvc_avilib_3.dir/video_writer.c.o.requires:
 
@@ -273,7 +273,7 @@ uvc_avilib_3: CMakeFiles/uvc_avilib_3.dir/video_process.c.o
 uvc_avilib_3: CMakeFiles/uvc_avilib_3.dir/video_writer.c.o
 uvc_avilib_3: CMakeFiles/uvc_avilib_3.dir/build.make
 uvc_avilib_3: CMakeFiles/uvc_avilib_3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable uvc_avilib_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/share/capture/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable uvc_avilib_3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uvc_avilib_3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/uvc_avilib_3.dir/clean:
 .PHONY : CMakeFiles/uvc_avilib_3.dir/clean
 
 CMakeFiles/uvc_avilib_3.dir/depend:
-	cd /Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mike/Downloads/UVC_record/uvc_avilib_3 /Users/mike/Downloads/UVC_record/uvc_avilib_3 /Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug /Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug /Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/share/capture/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/share/capture /Volumes/share/capture /Volumes/share/capture/cmake-build-debug /Volumes/share/capture/cmake-build-debug /Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uvc_avilib_3.dir/depend
 

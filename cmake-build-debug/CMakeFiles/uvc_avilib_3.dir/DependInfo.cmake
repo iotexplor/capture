@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/avilib.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/avilib.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/color.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/color.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/h264encoder.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/main.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/main.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/utils.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/utils.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_capture.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/video_capture.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_process.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/video_process.c.o"
-  "/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_writer.c" "/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/video_writer.c.o"
+  "/Volumes/share/capture/avilib.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/avilib.c.o"
+  "/Volumes/share/capture/color.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/color.c.o"
+  "/Volumes/share/capture/h264encoder.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/h264encoder.c.o"
+  "/Volumes/share/capture/main.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/main.c.o"
+  "/Volumes/share/capture/utils.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/utils.c.o"
+  "/Volumes/share/capture/video_capture.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/video_capture.c.o"
+  "/Volumes/share/capture/video_process.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/video_process.c.o"
+  "/Volumes/share/capture/video_writer.c" "/Volumes/share/capture/cmake-build-debug/CMakeFiles/uvc_avilib_3.dir/video_writer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

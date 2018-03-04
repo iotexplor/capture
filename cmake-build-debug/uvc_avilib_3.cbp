@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug"/>
+				<Option working_dir="/Volumes/share/capture/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug"/>
+				<Option working_dir="/Volumes/share/capture/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug"/>
+				<Option working_dir="/Volumes/share/capture/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uvc_avilib_3">
-				<Option output="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/uvc_avilib_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug"/>
+				<Option output="/Volumes/share/capture/cmake-build-debug/uvc_avilib_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/share/capture/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 uvc_avilib_3"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 uvc_avilib_3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uvc_avilib_3/fast">
-				<Option output="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/uvc_avilib_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug"/>
+				<Option output="/Volumes/share/capture/cmake-build-debug/uvc_avilib_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/share/capture/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,65 +75,65 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 uvc_avilib_3/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mike/Downloads/UVC_record/uvc_avilib_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 uvc_avilib_3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/share/capture/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/AlCommon.h">
+		<Unit filename="/Volumes/share/capture/AlCommon.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/avilib.c">
+		<Unit filename="/Volumes/share/capture/avilib.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/avilib.h">
+		<Unit filename="/Volumes/share/capture/avilib.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/color.c">
+		<Unit filename="/Volumes/share/capture/color.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/color.h">
+		<Unit filename="/Volumes/share/capture/color.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/h264encoder.c">
+		<Unit filename="/Volumes/share/capture/h264encoder.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/h264encoder.h">
+		<Unit filename="/Volumes/share/capture/h264encoder.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/huffman.h">
+		<Unit filename="/Volumes/share/capture/huffman.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/main.c">
+		<Unit filename="/Volumes/share/capture/main.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/utils.c">
+		<Unit filename="/Volumes/share/capture/utils.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/utils.h">
+		<Unit filename="/Volumes/share/capture/utils.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_capture.c">
+		<Unit filename="/Volumes/share/capture/video_capture.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_capture.h">
+		<Unit filename="/Volumes/share/capture/video_capture.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_process.c">
+		<Unit filename="/Volumes/share/capture/video_process.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_process.h">
+		<Unit filename="/Volumes/share/capture/video_process.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_writer.c">
+		<Unit filename="/Volumes/share/capture/video_writer.c">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/video_writer.h">
+		<Unit filename="/Volumes/share/capture/video_writer.h">
 			<Option target="uvc_avilib_3"/>
 		</Unit>
-		<Unit filename="/Users/mike/Downloads/UVC_record/uvc_avilib_3/CMakeLists.txt">
+		<Unit filename="/Volumes/share/capture/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
